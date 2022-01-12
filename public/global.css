@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Google sans";
+  src: url(./ProductSansRegular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Google sans";
+  src: url("./ProductSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  font-family: "Google sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading,
+button,
+a {
+  font-weight: bold !important;
+  font-family: "Google sans";
+}
+
+.btn {
+  border-radius: 50px !important;
+}
+
+.markup-container {
+  padding: 16px;
+}
+
+
+.markup-container ul,
+.markup-container ol {
+  padding-left: 42px;
+}
+
+.heading-2 {
+  color: #000000b2;
+  font-size: 1.8rem;
+}
+
+.paragraph {
+  line-height: 1.6rem;
+  color: #000000b2;
+}
+
+.list-element {
+  list-style-type: square !important;
+  color: #000000b2;
+}
+
+.o-list-element {
+  color: #000000b2;
+}
+
+.list-element::marker {
+  color: #4386f5;
+}
+
+@media (max-width:1000px) {
+  .modal {
+    width: 100%;
+  }
+
+  .modal>form {
+    padding: 32px 8px !important;
+  }
+
+}
